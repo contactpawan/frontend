@@ -1,0 +1,25 @@
+.brandSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    background: #00287b;
+}
+
+.formBlock {
+    padding: 10px;
+    padding-left: 25px;
+
+    .row {
+        margin-bottom: 15px;
+
+        .btn {
+            width: 80%;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.deleteIcon {
+    cursor: pointer;
+}
