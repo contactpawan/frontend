@@ -1,7 +1,6 @@
-FROM node:alpine
-RUN mkdir -p /app
+FROM node:20.10.0
 WORKDIR /app
-COPY package.json .
+COPY package.json package-lock.json ./
 RUN npm install
 COPY . .
 EXPOSE 3000
